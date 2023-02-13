@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "env-cmd -f .env.development nodemon index.js",
-    "dev": "env-cmd -f .env.production nodemon index.js"
+    "start": "env-cmd -f .env.production nodemon index.js",
+    "dev": "env-cmd -f .env.development nodemon index.js"
   },
   "keywords": [],
   "author": "",
